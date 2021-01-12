@@ -7,18 +7,18 @@ set(CMAKE_CXX_FLAGS "-std=c++11 -O2")
 # 寻找OpenCV库
 find_package(OpenCV REQUIRED)
 
-add_executable(a-imageBasics a-imageBasics.cpp)
-target_link_libraries(a-imageBasics ${OpenCV_LIBS})
+add_executable(a_imageBasics a_imageBasics.cpp)
+target_link_libraries(a_imageBasics ${OpenCV_LIBS})
 
-add_executable(b-imageBasics b-imageBasics.cpp)
-target_link_libraries(b-imageBasics ${OpenCV_LIBS})
+add_executable(b_imageBasics b_imageBasics.cpp)
+target_link_libraries(b_imageBasics ${OpenCV_LIBS})
 
-add_executable(c-imageBasics c-imageBasics.cpp)
-target_link_libraries(c-imageBasics ${OpenCV_LIBS})
+add_executable(c_imageBasics c_imageBasics.cpp)
+target_link_libraries(c_imageBasics ${OpenCV_LIBS})
 
-add_executable(d-imageBasics d-imageBasics.cpp)
-target_link_libraries(d-imageBasics ${OpenCV_LIBS})
+add_executable(d_imageBasics d_imageBasics.cpp)
+target_link_libraries(d_imageBasics ${OpenCV_LIBS})
 
-add_executable(e-imageBasics e-imageBasics.cpp)
-target_link_libraries(e-imageBasics ${OpenCV_LIBS})
+add_executable(e_imageBasics e_imageBasics.cpp)
+target_link_libraries(e_imageBasics ${OpenCV_LIBS})
 
